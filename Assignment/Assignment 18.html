@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ABC College Admission 2026</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 0;
+      padding: 15px;
+    }
+
+    header, footer {
+      background-color: #1a237e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer {
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f2f5;
+      text-align: center;
+    }
+
+    fieldset {
+      padding: 15px;
+      border: 1px solid #999;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 250px;
+      padding: 4px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+    }
+
+    select {
+      padding: 4px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+    }
+
+    textarea {
+      width: 90%;
+      height: 60px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ABC College Admission 2026</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Courses and Fees</h2>
+
+      <table>
+        <caption>Available Courses</caption>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Seats</th>
+            <th>Fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech CSE</td>
+            <td>120</td>
+            <td>&#8377;90,000</td>
+          </tr>
+          <tr>
+            <td>BCA</td>
+            <td>60</td>
+            <td>&#8377;45,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Application Form</legend>
+
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="course">Course:</label><br>
+          <select id="course" name="course" required>
+            <option value="btech">B.Tech CSE</option>
+            <option value="bca">BCA</option>
+          </select><br>
+
+          <label for="statement">Statement:</label><br>
+          <textarea id="statement" name="statement" minlength="10" required></textarea><br>
+
+          <button type="submit">Apply</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 ABC College
+  </footer>
+
+</body>
+</html>
